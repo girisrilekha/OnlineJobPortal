@@ -1,0 +1,90 @@
+.jobs-data {
+    color: rgb(68, 67, 67);
+    border: 1px solid rgb(236, 231, 231);
+}
+.jobs-data h3{
+    color: black;
+}
+.job-btn span{
+    padding: 10px;
+    background-color: #fff;
+}
+.job-sub{
+    gap:20px;
+    color: rgb(107, 107, 107);
+}
+
+.job-header-sub ul{
+    margin-bottom: 0px !important;
+    list-style: none;
+    padding: 0;
+}
+.job-header-sub ul li{
+    margin-bottom: 5px;
+    color: rgb(65, 65, 65) !important;
+}
+.job-head-buttons button{
+    margin-right: 10px;
+}
+.job-desc{
+    color: rgb(65, 65, 65) !important;
+}
+.job-desc h2,h4,h5{
+    color: black;
+}
+
+.job-header-sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(232, 232, 232);
+    margin-bottom: 10px;
+    
+}
+
+/* ICON COLORS */
+.color-orange{
+    color: orange;
+}
+
+
+h2{
+    color: #26ae61;
+}
+.text-color{
+    color: #26ae61;
+}
+.bg-color{
+    background-color: #f2f7fb;
+}
+
+/* APPLICATIONS */
+.card-hover:hover{
+    box-shadow: 0 0 10px #26ae61;
+}
+.application h5{
+    font-size: 26px;
+    font-weight: 700;
+}
+/* .application-card{
+    background-color: #f2f7fb;
+} */
+.application-text{
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+}
+
+.error-message{
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* PROFILE */
+.profile-card{
+    align-items: stretch;
+    flex-direction: column;
+    
+}

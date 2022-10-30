@@ -1,0 +1,217 @@
+@import './variables.scss';
+
+* {
+    @include universal_style;
+}
+
+.rows {
+    margin-bottom: 50px;
+}
+
+
+// Navigation bar 
+.navbar-des{
+    .nav-link {
+        font-size: 20px;
+        color: $primary-color;
+        padding-right: 10px;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+
+    & a {
+        margin-right: 15px;
+    }
+
+    & img{
+        height: 60px;
+    }
+
+    & .container-fluid {
+        background-color: $bg-color;
+    }
+}
+
+
+/* Carausal CSS */
+.CarausalBox{
+    .Boxx {
+        padding: 50px 70px;
+        background-color: #f2f7fb;
+    }
+
+    .carousel-caption {
+        width: 500px;
+        margin-top: 100px;
+    }
+
+    .SlidingCarausal h2 {
+        font-size: 42px;
+        font-weight: 600;
+        color: $secondary-color;
+    }
+    
+    .SlidingCarausal p {
+        color: black;
+    }
+}
+
+
+
+/* Job Categories */
+.job-categories{
+    .tittle {
+        font-size: 40px;
+        color: $primary-color;
+        margin: 30px 0px;
+        font-weight: 600;
+    }
+
+    h5 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .btn{
+        background-color: $primary-color;
+        color: $bg-color;
+        border-radius: 25px;
+
+        &:hover{
+            background-color: $secondary-color;
+            color: $bg-color;
+        }
+    }
+
+    .card:hover {
+        box-shadow: 0 0 10px $secondary-color;
+    }
+}
+
+
+/* Guide Styling */
+.guide-style{
+    .work-process{
+        text-align: center;
+    }
+    
+    .work-process h4 {
+        font-size: 25px;
+        color: $primary-color;
+    }
+
+    .btn {
+        border-radius: 50px;
+        font-size: 20px;
+        background-color: $primary-color;
+        color: #fff;
+        font-weight: 600;
+
+        &:hover {
+            background-color: $secondary-color;
+            color: #fff;
+        }
+    }
+
+    .process-icon img {
+        height: 60px;
+        margin-bottom: 20px;
+    }
+}
+
+
+// login form design
+.login-row {
+    background-color: $bg-color;
+
+    .login-form {
+        padding: 50px 80px 50px 80px;
+        background-color: white;
+        margin: 70px 0;
+
+        & h1 {
+            color: $primary-color;
+            font-size: 55px;
+        }
+
+        & button {
+            background-color: $primary-color;
+            border: none;
+
+            &:hover {
+                background-color: $secondary-color;
+            }
+        }
+
+        @media only screen and (max-width: $medium-break) {
+            & {
+                // margin: 60px 60px;
+                padding: 40px;
+                margin: 60px 0;
+            }
+
+            & h1 {
+                font-size: 45px;
+            }
+        }
+
+        @media only screen and (max-width: $small-break) {
+            & {
+                margin: 60px 20px;
+                padding: 35px;
+            }
+
+            & h1 {
+                font-size: 42px;
+            }
+        }
+
+    }
+}
+
+
+
+//signup section design 
+.signup-row{
+    background-color: $bg-color;
+
+    .signup-section{
+        background-color: white;
+        padding: 40px;
+
+        & h1{
+            color: $primary-color;
+        }
+    }
+}
+
+
+/* Footer Css */
+footer{
+    height: 450px;
+
+    & h5{
+        font-size: 28px;
+        color: $primary-color;
+        margin-bottom: 20px;
+    }
+
+    & h3{
+        color: $primary-color;
+    }
+
+    & a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+
+        &:hover{
+            color: $primary-color;
+        }
+    }
+}
+
+
+

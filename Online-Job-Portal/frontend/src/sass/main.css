@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rows {
+  margin-bottom: 50px;
+}
+
+.navbar-des .nav-link {
+  font-size: 20px;
+  color: #26ae61;
+  padding-right: 10px;
+}
+.navbar-des .nav-link:hover {
+  color: #46de88;
+}
+.navbar-des a {
+  margin-right: 15px;
+}
+.navbar-des img {
+  height: 60px;
+}
+.navbar-des .container-fluid {
+  background-color: #f2f7fb;
+}
+
+/* Carausal CSS */
+.CarausalBox .Boxx {
+  padding: 50px 70px;
+  background-color: #f2f7fb;
+}
+.CarausalBox .carousel-caption {
+  width: 500px;
+  margin-top: 100px;
+}
+.CarausalBox .SlidingCarausal h2 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #46de88;
+}
+.CarausalBox .SlidingCarausal p {
+  color: black;
+}
+
+/* Job Categories */
+.job-categories .tittle {
+  font-size: 40px;
+  color: #26ae61;
+  margin: 30px 0px;
+  font-weight: 600;
+}
+.job-categories h5 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.job-categories .btn {
+  background-color: #26ae61;
+  color: #f2f7fb;
+  border-radius: 25px;
+}
+.job-categories .btn:hover {
+  background-color: #46de88;
+  color: #f2f7fb;
+}
+.job-categories .card:hover {
+  box-shadow: 0 0 10px #46de88;
+}
+
+/* Guide Styling */
+.guide-style .work-process {
+  text-align: center;
+}
+.guide-style .work-process h4 {
+  font-size: 25px;
+  color: #26ae61;
+}
+.guide-style .btn {
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: #26ae61;
+  color: #fff;
+  font-weight: 600;
+}
+.guide-style .btn:hover {
+  background-color: #46de88;
+  color: #fff;
+}
+.guide-style .process-icon img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.login-row {
+  background-color: #f2f7fb;
+}
+.login-row .login-form {
+  padding: 50px 80px 50px 80px;
+  background-color: white;
+  margin: 70px 0;
+}
+.login-row .login-form h1 {
+  color: #26ae61;
+  font-size: 55px;
+}
+.login-row .login-form button {
+  background-color: #26ae61;
+  border: none;
+}
+.login-row .login-form button:hover {
+  background-color: #46de88;
+}
+@media only screen and (max-width: 768px) {
+  .login-row .login-form {
+    padding: 40px;
+    margin: 60px 0;
+  }
+  .login-row .login-form h1 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .login-row .login-form {
+    margin: 60px 20px;
+    padding: 35px;
+  }
+  .login-row .login-form h1 {
+    font-size: 42px;
+  }
+}
+
+.signup-row {
+  background-color: #f2f7fb;
+}
+.signup-row .signup-section {
+  background-color: white;
+  padding: 40px;
+}
+.signup-row .signup-section h1 {
+  color: #26ae61;
+}
+
+/* Footer Css */
+footer {
+  height: 450px;
+}
+footer h5 {
+  font-size: 28px;
+  color: #26ae61;
+  margin-bottom: 20px;
+}
+footer h3 {
+  color: #26ae61;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+footer a:hover {
+  color: #26ae61;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,13 @@
+@mixin universal_style{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$primary-color: #26ae61;
+$secondary-color: #46de88;
+$bg-color: #f2f7fb;
+
+$small-break : 468px;
+$medium-break : 768px;
+$large-break : 1024px;
